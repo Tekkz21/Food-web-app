@@ -1,4 +1,4 @@
-<?php  session_start(); ?>
+<?php 
 <!DOCTYPE html>
 <html>
 <head>
@@ -11,7 +11,7 @@
 <div id ="afold" style="height: 100vh">
 	<nav id="topnav">
 	<ul>
-		<?php echo "$_SESSION['User']";?>
+		
 		<li class="navbarlinks " ><a href="Login.php">SIGN IN</a></li>
 		<li class="navbarlinks " ><a href="Menu.php">MENU</a></li>
 		<li class= "navbarlinks "><a href="#">ORDER</a></li>
@@ -90,3 +90,4 @@
 </div>
 </body>
 </html>
+?>
